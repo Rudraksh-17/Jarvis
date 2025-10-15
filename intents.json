@@ -1,0 +1,77 @@
+{
+  "intents": [
+    {
+      "tag": "greet",
+      "patterns": ["hello", "hi", "hey there", "good morning", "good evening"],
+      "responses": ["Hello! How can I help you today?", "Hi there, what can I do for you?"]
+    },
+    {
+      "tag": "time",
+      "patterns": ["what time is it", "tell me the time", "current time"],
+      "responses": ["The current time is {time}"]
+    },
+    {
+      "tag": "open_browser",
+      "patterns": ["open browser", "launch google", "search on chrome"],
+      "responses": ["Opening browser."]
+    },
+    {
+      "tag": "play_music",
+      "patterns": ["play music", "start playing music", "play songs"],
+      "responses": ["Playing music now."]
+    },
+    {
+      "tag": "pause_music",
+      "patterns": ["pause music", "stop music", "hold the song"],
+      "responses": ["Music paused."]
+    },
+    {
+      "tag": "volume_up",
+      "patterns": ["increase volume", "volume up", "make it louder"],
+      "responses": ["Increasing volume."]
+    },
+    {
+      "tag": "volume_down",
+      "patterns": ["decrease volume", "volume down", "make it quieter"],
+      "responses": ["Decreasing volume."]
+    },
+    {
+      "tag": "mute",
+      "patterns": ["mute sound", "silence", "turn off sound"],
+      "responses": ["Muting volume."]
+    },
+    {
+      "tag": "open_notepad",
+      "patterns": ["open notepad", "launch notepad"],
+      "responses": ["Opening Notepad."]
+    },
+    {
+      "tag": "open_calculator",
+      "patterns": ["open calculator", "launch calculator"],
+      "responses": ["Opening Calculator."]
+    },
+    {
+      "tag": "shutdown",
+      "patterns": ["shutdown computer", "turn off system"],
+      "responses": ["Shutting down your system."]
+    },
+    {
+      "tag": "restart",
+      "patterns": ["restart computer", "reboot system"],
+      "responses": ["Restarting your system."]
+    },
+    {
+      "tag": "exit",
+      "patterns": ["exit", "quit", "goodbye"],
+      "responses": ["Goodbye! Have a nice day!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "make me laugh"],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "Why did the computer go to therapy? It had too many bytes of anxiety!"
+      ]
+    }
+  ]
+}
